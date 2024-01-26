@@ -1,3 +1,21 @@
+const rings = document.getElementById('rings');
+const circle = document.getElementById('circle');
+const photoOfMe = document.getElementById('photo-container');
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    rings.style.left = '-100px'
+    setTimeout(() =>{
+      photoOfMe.style.transform = 'rotateY(0deg)';
+    })
+    setTimeout(() => {
+      circle.style.left ='-65px'
+      circle.style.opacity = '1'
+    }, 500)
+  })
+})
+
+
+
 //form 
 
 
